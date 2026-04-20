@@ -57,8 +57,8 @@
             <h2>Research Highlights</h2>
 
             <article>
-                <h3>Artificial Intelligence</h3>
-                <p>Research on machine learning, deep learning, and intelligent systems.</p>
+                <h3>Mathematics</h3>
+                <p>Focus on Differentiation and integration Problem Solving</p>
             </article>
 
             <article>
