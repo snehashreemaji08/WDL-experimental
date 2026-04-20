@@ -62,8 +62,8 @@
             </article>
 
             <article>
-                <h3>Cyber Security</h3>
-                <p>Focus on network security, encryption, and ethical hacking.</p>
+                <h3>Chemisty</h3>
+                <p>Focus on basic chemistry daily life use in chemistry </p>
             </article>
 
             <article>
