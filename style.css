@@ -56,6 +56,10 @@ main {
     padding: 20px;
 }
 
+section {
+    margin-bottom: 40px;
+}
+
 
 section h2 {
     margin-bottom: 15px;
