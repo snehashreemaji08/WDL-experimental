@@ -46,7 +46,7 @@
             </article>
 
             <article>
-                <h3>Ms. C. Singh</h3>
+                <h3>Prof.Mayur Kadu</h3>
                 <p>Position: Assistant Professor</p>
                 <p>Specialization: Web Development</p>
             </article>
