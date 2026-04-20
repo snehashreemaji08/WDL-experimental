@@ -34,9 +34,9 @@
             <h2>Faculty Directory</h2>
 
             <article>
-                <h3>Dr. A. Sharma</h3>
+                <h3>Prof.Yogesh Panke</h3>
                 <p>Position: Professor</p>
-                <p>Specialization: Artificial Intelligence</p>
+                <p>Specialization in Mathematics</p>
             </article>
 
             <article>
