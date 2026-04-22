@@ -144,18 +144,6 @@ footer {
 }
 
 
-button {
-    background: #38bdf8;
-    color: #020617;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background: #5e0f27;
-}
 
 
 
@@ -176,14 +164,7 @@ button:hover {
 }
 
 
-@media (max-width: 480px) {
-    body {
-        font-size: 14px;
-    }
 
-    header {
-        padding: 15px;
-    }
 
     .faculty-card img {
         height: 150px;
