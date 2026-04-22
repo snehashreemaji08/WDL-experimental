@@ -8,7 +8,7 @@
 
 <body>
     <header>
-        <h1>Computer Science Department</h1>
+        <h1>First Year CSE Department</h1>
         <p>Welcome to the official department webpage</p>
     </header>
 
