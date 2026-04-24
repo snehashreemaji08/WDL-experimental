@@ -83,6 +83,7 @@ section h2 {
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
+    width: 220px;
 }
 
 .faculty-card:hover {
