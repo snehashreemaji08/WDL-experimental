@@ -1,5 +1,5 @@
 # wdl-experimential
-!DOCTYPE html>
+!<DOCTYPE html>
 <html>
 <head>
     <title>CS Department</title>
