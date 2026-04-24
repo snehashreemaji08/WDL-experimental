@@ -67,14 +67,16 @@ section h2 {
 }
     .faculty-container{
          display: flex;
- justify-content: center;
-    margin: 40px;
+        flex-wrap:wrap;
+        justify-content: center;
+        margin: 40px;
+        
 }
 
 .faculty-card {
     background: white;
     padding: 20px;
-    width: 25px;
+    width: 250px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
