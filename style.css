@@ -67,7 +67,7 @@ section h2 {
 }
     .faculty-container{
          display: flex;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         justify-content: center;
         margin: 40px;
         
