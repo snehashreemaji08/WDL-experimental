@@ -27,6 +27,7 @@ if (facultyContainer) {
           subject: "Electrical",
           img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHiOkdUUgZf7ZGh6HKhyfoPBCQTZjw3yLZA&s"
 
+  ]
   ];
 
   
