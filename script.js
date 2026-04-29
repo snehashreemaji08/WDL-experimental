@@ -3,6 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     var searchInput = document.getElementById("searchInput");
     var cards = document.getElementsByClassName("card");
 
+    // Prevent error on other pages
+    if (searchInput == null) {
+        return;
+    }
+
     searchInput.addEventListener("keyup", function () {
         var value = searchInput.value.toLowerCase();
 
