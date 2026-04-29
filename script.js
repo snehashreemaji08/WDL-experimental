@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     var searchInput = document.getElementById("searchInput");
-    var cards = document.getElementsByClassName("card");
+    var cards = document.getElementsByClassName("faculty-card");
 
     // Prevent error on other pages
     if (searchInput == null) {
