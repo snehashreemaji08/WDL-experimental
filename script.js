@@ -23,11 +23,11 @@ if (facultyContainer) {
 
     },
       {
-      name: "Prof Yuvraj Chauhan:,
+      name: "Prof Yuvraj Chauhan",
           subject: "Electrical",
           img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHiOkdUUgZf7ZGh6HKhyfoPBCQTZjw3yLZA&s"
 
-  ]
+}
   ];
 
   
