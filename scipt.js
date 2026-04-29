@@ -29,17 +29,33 @@ if (facultyContainer) {
 
   ];
 
-  facultyData.forEach(f => {
-    const card = document.createElement("div");
-    card.className = "faculty-card";
+  
 
-    card.innerHTML = `
-      <img src="${f.img}" alt="${f.name}">
-      <h3>${f.name}</h3>
-      <p>${f.subject}</p>
-    `;
+  function displayFaculty(data) {
+  facultyContainer.innerHTML = "";
+  
+  data.forEach(f => {
+    const div = document.createElement("div");
+    div.className = "faculty-card";
+    div.innerHTML = <h3>${f.name}</h3><p>${f.subject}</p>;
+    facultyContainer.appendChild(div);
+  });
+}
 
-    facultyContainer.appendChild(card);
+// Initial load
+displayFaculty(facultyData);
+
+// Search functionality
+if (searchInput) {
+  searchInput.addEventListener("keyup", () => {
+    const value = searchInput.value.toLowerCase();
+
+    const filtered = facultyData.filter(f =>
+      f.name.toLowerCase().includes(value) ||
+      f.subject.toLowerCase().includes(value)
+    );
+
+    displayFaculty(filtered);
   });
 }
 
