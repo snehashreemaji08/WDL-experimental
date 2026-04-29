@@ -21,7 +21,7 @@ if (facultyContainer) {
       subject:"Web develpoment",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHiOkdUUgZf7ZGh6HKhyfoPBCQTZjw3yLZA&s">
 
-    }
+    },
       {
       name: "Prof Yuvraj Chauhan:,
           subject: "Electrical",
