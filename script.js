@@ -1,26 +1,24 @@
-document.addEventListener("DOMContentLoaded", function () {
+<script>
+const form = document.getElementById("contactForm");
 
-    var searchInput = document.getElementById("searchInput");
-    var cards = document.getElementsByClassName("card");
+form.addEventListener("submit", async function(e) {
+  e.preventDefault();
 
-    if (!searchInput) return;
+  const data = new FormData(form);
 
-    searchInput.addEventListener("keyup", function () {
-        var value = searchInput.value.toLowerCase();
+  const response = await fetch(form.action, {
+    method: "POST",
+    body: data,
+    headers: {
+      'Accept': 'application/json'
+    }
+  });
 
-        console.log("Typing:", value);  // DEBUG
-
-        for (var i = 0; i < cards.length; i++) {
-            var text = cards[i].innerText.toLowerCase();
-
-            console.log("Checking:", text); // DEBUG
-
-            if (text.includes(value)) {
-                cards[i].style.display = "";
-            } else {
-                cards[i].style.display = "none";
-            }
-        }
-    });
-
+  if (response.ok) {
+    document.getElementById("responseMsg").innerText = "✅ Thank you! Your message has been sent.";
+    form.reset();
+  } else {
+    document.getElementById("responseMsg").innerText = "❌ Oops! Something went wrong.";
+  }
 });
+</script>
