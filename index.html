@@ -36,4 +36,27 @@
     <p>
         The department is equipped with advanced computer laboratories and modern infrastructure to support practical learning. Experienced faculty members guide students through academic and project-based learning, encouraging innovation, creativity, and independent thinking.
     </p>
+    <section>
+    <h2>Our Location</h2>
+    <div id="map" style="height:400px; width:100%;"></div>
+</section>
+
+<script>
+function initMap() {
+    var location = { lat: 19.9975, lng: 73.7898 }; // Nashik (you can change)
+
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 15,
+        center: location
+    });
+
+    var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+        title: "Our College"
+    });
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </section>
