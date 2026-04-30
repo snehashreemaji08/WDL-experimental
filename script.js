@@ -15,10 +15,10 @@ form.addEventListener("submit", async function(e) {
   });
 
   if (response.ok) {
-    document.getElementById("responseMsg").innerText = "✅ Thank you! Your message has been sent.";
+    document.getElementById("responseMsg").innerText = " Thank you! Your message has been sent.";
     form.reset();
   } else {
-    document.getElementById("responseMsg").innerText = "❌ Oops! Something went wrong.";
+    document.getElementById("responseMsg").innerText = " Oops! Something went wrong.";
   }
 });
 </script>
