@@ -67,13 +67,30 @@ section h2 {
     color: #38bdf8;
     margin-bottom: 15px;
 }
-/* HERO IMAGE (FULL WIDTH) */
+.hero {
+    position: relative;
+}
+
 .hero img {
     width: 100%;
-    height: 300px;          /* adjust height */
-    object-fit: cover;      /* very important */
-    display: block;
+    height: 350px;
+    object-fit: cover;
 }
+
+/* TEXT ON IMAGE */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
 
 
 .faculty-container {
