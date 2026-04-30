@@ -163,6 +163,38 @@ button {
 button:hover {
     background: #0ea5e9;
 }
+/* Center the form section */
+form {
+    width: 350px;
+    margin: 40px auto;   /* centers horizontally */
+    padding: 20px;
+    background: #1e293b;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Input styling */
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Button styling */
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /* RESPONSIVE */
 
